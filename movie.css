@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 88vh;
+    background-image: url(/IMAGES/movie.jpg);
+    background-size: 1523px 1000px;
+    background-repeat: no-repeat;
+    font-family:  sans-serif;
+    margin-top: -42px;
+}   
+div{
+    height: 180px;
+    width: 530px;
+    /* border: 2px solid red; */
+    margin-left: 120px;
+    margin-top: 120px;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #0b2934;
+}
+input{
+    height: 30px;
+    width: 410px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: #02141b;
+    background-color: #e0e9ff;
+    text-transform: capitalize;
+}
+button{
+    height: 30px;
+    width: 90px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #867575;
+    border: none;
+    background-color: #e0e9ff;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #e0e9ffde;
+}
+#movie_details{
+    height: 405px;
+    width: 720px;
+    /* border: 2px solid red; */
+    margin-left: 120px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+#movie_details #image img{
+    height: 405px;
+    width: 280px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -108px;
+    margin-top: -5px;
+    margin-right: 50px;
+}
+#movie_details #details{
+    height: 405px;
+    width: 280px;
+    cursor: pointer;
+    margin-top: -25px;
+}
+#movie_details #details #title{
+    margin-top: 40px;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #0b2934;
+}
+#movie_details #details #as1{
+    /* border: 1px solid red; */
+    height: 45px;
+    width: 160px;
+    display: flex;
+    margin-top: 10px;
+    line-height: 22px;
+}
+#movie_details #details #as1 #release{
+ font-size: 16px;
+ color: #0b2934;
+ margin-right: 10px;
+}
+#movie_details #details #as1 #rating{
+    font-size: 15px;
+ color: #0b2934;
+}
+#movie_details #details #as2{
+    /* border: 1px solid red; */
+    height: 35px;
+    width: 270px;
+    display: flex;
+    margin-top: 28px;
+    line-height: 16px;
+}
+#movie_details #details #as2 #lang{
+    height: 30px;
+    color: #0b2934;
+    margin-right: 20px;
+    font-size: 15px;
+    width: 137px;
+    /* border: 1px solid green; */
+}
+#movie_details #details #as2 #genre{
+    color: #0b2934;
+
+}
+#movie_details #details #mins{
+    margin-top: 31px;
+    color: #0b2934;
+    margin-bottom: 10px;
+}
+#movie_details #details #director{
+margin-top: 5px;
+    color: #0b2934;
+    margin-bottom: 10px;
+}
+#movie_details #details #actor{
+    margin-top: 5px;
+    color: #0b2934;
+    margin-bottom: 10px;
+}
+#movie_details #details #desc{
+    font-size: 19px;
+    color: #0b2934;
+    font-weight: 500;
+}
